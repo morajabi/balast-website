@@ -1,6 +1,18 @@
 {
   "extends": "airbnb-base",
   "parserOptions": {
-    "ecmaVersion": 8
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-unused-vars": "off",
+    "no-trailing-spaces":"off",
+    "class-methods-use-this": "off"
   }
 }

@@ -5,14 +5,22 @@
   "main": "index.js",
   "author": "Mohammad Rajabifard <mo.rajbi@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "devDependencies": {
+    "babel-plugin-styled-components": "^1.1.4",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-import": "^2.3.0"
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-react": "^7.0.1"
   },
   "dependencies": {
     "next": "^2.4.3",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "styled-components": "^2.0.1"
   }
 }
