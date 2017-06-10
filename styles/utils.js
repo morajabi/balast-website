@@ -6,7 +6,7 @@ export const colors = {
   primary: '#00D5FF',
   blue: '#33B7FF',
   paleBlueGray: '#EDF2F4',
-  paleGray: '#F5F5F5',
+  paleGray: '#F3F3F3',
   black: '#555',
 };
 
@@ -19,6 +19,6 @@ export const sizes = {
 
   buttonRadius: '2.25rem',
   buttonPadding: '.9rem 2.5rem',
-  sectionMarginTop: '5.9rem',
-  sectionPaddingTop: '2.3rem',
+  sectionTop: '5.5rem',
+  separatorSpace: '2rem',
 };

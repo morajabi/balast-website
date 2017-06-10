@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import styled from 'styled-components';
 import Header from '../components/Header';
-
-const Pa = styled.span`
-`;
+import SureIsUp from '../components/SureIsUp';
 
 const Index = () => (
   <div>
@@ -12,6 +10,7 @@ const Index = () => (
     </Head>
 
     <Header />
+    <SureIsUp />
   </div>
 );
 

@@ -1,12 +1,9 @@
 /* @flow */
 import styled from 'styled-components';
 import { colors, sizes } from '../styles/utils';
+import Section from './Section';
 import Container from '../components/Container';
 import HighlightButton from '../components/HighlightButton';
-
-const PaddedContainer = styled(Container)`
-  padding: 120px 0 0 0;
-`;
 
 const Right = styled.div`
   width: 350px;
@@ -24,7 +21,7 @@ const HugeImage = styled.img`
 `;
 
 const Title = styled.h1`
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   line-height: 1em;
   color: ${colors.primary};
 `;
@@ -40,19 +37,21 @@ const Description = styled.p`
 `;
 
 const Header = ({ ...props }) => (
-  <PaddedContainer flex>
-    <Right>
-      <HugeImage src="/static/images/lighthouse.svg" />
-    </Right>
-    <Left>
-      <Title><LightTitle>سایتم</LightTitle> بالاست؟</Title>
-      <Description>
-        قبل از اینکه مشتری به مشکل بخوره،
-        <br /> از پایین اومدن سایت‌تون خبردار بشید.
-      </Description>
-      <HighlightButton link href="#section2">بیشتر بدانید</HighlightButton>
-    </Left>
-  </PaddedContainer>
+  <Section>
+    <Container flex padded>
+      <Right>
+        <HugeImage src="/static/images/lighthouse.svg" />
+      </Right>
+      <Left>
+        <Title><LightTitle>سایتم</LightTitle> بالاست؟</Title>
+        <Description>
+          قبل از اینکه مشتری به مشکل بخوره،
+          <br /> از پایین اومدن سایت‌تون خبردار بشید.
+        </Description>
+        <HighlightButton link href="#section2">بیشتر بدانید</HighlightButton>
+      </Left>
+    </Container>
+  </Section>
 );
 
 export default Header;
