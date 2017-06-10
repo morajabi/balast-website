@@ -8,6 +8,9 @@ import ZigZagSeparator from './ZigZagSeparator';
 const FlexWrapper = styled.div`
   display: flex;
   margin-top: 1.5rem;
+
+  @media (max-width: 700px) {
+  }
 `;
 
 const Right = styled.div`
@@ -23,10 +26,13 @@ const SubText = styled.p`
   margin: 0;
   line-height: 1em;
   font-size: 2rem;
+  @media (max-width: 700px) {
+    font-size: 1.7rem;
+  }
 `;
 
 const KeyText = styled.p`
-  margin: 0;
+  margin: .5rem 0 0 0;
   line-height: 1.5em;
   font-size: 2.5rem;
   font-weight: bold;

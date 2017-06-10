@@ -5,19 +5,37 @@ import Section from './Section';
 import Container from '../components/Container';
 import HighlightButton from '../components/HighlightButton';
 
+const FlexibleContainer = styled(Container)`
+  @media (max-width: 700px) {
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+  }
+`;
+
 const Right = styled.div`
-  width: 350px;
+  width: 21.9rem;
   display: flex;
   flex: 0 1 auto;
   align-items: flex-end;
+
+  @media (max-width: 700px) {
+    justify-content: center;
+    width: 100%;
+  }
 `;
 
 const Left = styled.div`
-  flex: 1 0 auto;
+  flex: 1 1 auto;
 `;
 
 const HugeImage = styled.img`
   width: 55%;
+  display: inline-block;
+
+  @media (max-width: 700px) {
+    width: 35%;
+  }
 `;
 
 const Title = styled.h1`
@@ -38,7 +56,7 @@ const Description = styled.p`
 
 const Header = ({ ...props }) => (
   <Section>
-    <Container flex padded>
+    <FlexibleContainer flex padded>
       <Right>
         <HugeImage src="/static/images/lighthouse.svg" />
       </Right>
@@ -50,7 +68,7 @@ const Header = ({ ...props }) => (
         </Description>
         <HighlightButton link href="#section2">بیشتر بدانید</HighlightButton>
       </Left>
-    </Container>
+    </FlexibleContainer>
   </Section>
 );
 

@@ -14,8 +14,8 @@ const Wrapper = styled.div`
     `
   )}
 
-  padding-right: .7rem;
-  padding-left: .7rem;
+  padding-right: 1.3rem;
+  padding-left: 1.3rem;
 `;
 
 const Container = ({ ...props }) => (
