@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="570px" height="397px" viewBox="0 0 570 397" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>Chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M42.2175595,46.0006806 C42.2175595,42.1343115 45.3598853,39 49.2263819,39 L326.023986,39 C329.894851,39 333.032808,42.1382651 333.032808,45.9905893 L333.032808,79.5592261 C333.032808,83.420022 329.890482,86.5498154 326.023986,86.5498154 L42.2175595,86.5498154 L30.6801412,86.5498154 C27.3676174,86.5498154 27.0837237,85.3661556 30.0626148,83.8978708 L42.2175595,77.9067424 L42.2175595,46.0006806 Z" id="path-1"></path>
+        <filter x="-0.2%" y="-1.1%" width="100.3%" height="104.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0795969203 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M42.2175595,177.991749 C42.2175595,174.130313 45.3464093,171 49.2228478,171 L343.741561,171 C347.610475,171 350.74685,174.131776 350.74685,178.005199 L350.74685,345.530975 C350.74685,349.39984 347.618,352.536174 343.741561,352.536174 L42.2175595,352.536174 L30.6801412,352.536174 C27.3676174,352.536174 27.0837237,351.352514 30.0626148,349.88423 L42.2175595,343.893101 L42.2175595,177.991749 Z" id="path-3"></path>
+        <filter x="-0.2%" y="-0.3%" width="100.3%" height="101.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0795969203 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M263.217559,115.004933 C263.217559,111.136215 266.352394,108 270.222186,108 L535.349459,108 C539.218008,108 542.354086,111.12879 542.354086,115.002399 L542.354086,143.547417 C542.354086,147.414735 539.219252,150.549815 535.349459,150.549815 L263.217559,150.549815 L251.680141,150.549815 C248.367617,150.549815 248.083724,149.366156 251.062615,147.897871 L263.217559,141.906742 L263.217559,115.004933 Z" id="path-5"></path>
+        <filter x="-0.7%" y="-2.4%" width="101.4%" height="109.4%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.140115489 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chat">
+            <g id="Rectangle-5">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#E6E6E6" stroke-width="1" d="M42.7175595,46.0006806 C42.7175595,42.4121388 45.6343406,39.5 49.2263819,39.5 L326.023986,39.5 C329.615976,39.5 332.532808,42.4116797 332.532808,45.9905893 L332.532808,79.5592261 C332.532808,83.1420349 329.616188,86.0498154 326.023986,86.0498154 L42.2175595,86.0498154 L30.6801412,86.0498154 C27.8932212,86.0498154 27.782601,85.5791191 30.2836694,84.3463515 L42.438614,78.3552231 L42.7175595,78.2177318 L42.7175595,77.9067424 L42.7175595,46.0006806 Z"></path>
+            </g>
+            <g id="Rectangle-5-Copy-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <path stroke="#E6E6E6" stroke-width="1" d="M42.7175595,177.991749 C42.7175595,174.403993 45.6250171,171.5 49.2228478,171.5 L343.741561,171.5 C347.33596,171.5 350.24685,174.409544 350.24685,178.005199 L350.24685,345.530975 C350.24685,349.12638 347.339177,352.036174 343.741561,352.036174 L42.2175595,352.036174 L30.6801412,352.036174 C27.8932212,352.036174 27.782601,351.565478 30.2836694,350.33271 L42.438614,344.341582 L42.7175595,344.204091 L42.7175595,343.893101 L42.7175595,177.991749 Z"></path>
+            </g>
+            <g id="Rectangle-5-Copy" transform="translate(395.677043, 129.274908) scale(-1, 1) translate(-395.677043, -129.274908) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <use fill="#D7FFC4" fill-rule="evenodd" xlink:href="#path-5"></use>
+            </g>
+            <text id="6:30-PM" font-family="IRANSans" font-size="12" font-weight="normal" letter-spacing="-0.342857212" fill="#B4B4B4">
+                <tspan x="274.32" y="74">6:30 PM</tspan>
+            </text>
+            <text id="6:30-PM" font-family="IRANSans" font-size="12" font-weight="normal" letter-spacing="-0.342857212" fill="#B4B4B4">
+                <tspan x="287.32" y="338">6:30 PM</tspan>
+            </text>
+            <text id="6:30-PM-Copy" font-family="IRANSans" font-size="12" font-weight="normal" letter-spacing="-0.342857212" fill="#B4B4B4">
+                <tspan x="453.32" y="141">6:30 PM</tspan>
+            </text>
+            <text id="آدرس-یا-آی‌پی-رو-بهم" font-family="IRANYekan" font-size="16" font-weight="normal" letter-spacing="0.231111109" fill="#252525">
+                <tspan x="90.2044634" y="69">آدرس یا آی‌پی رو بهم بگو</tspan>
+                <tspan x="72" y="69.6000977" font-family="LucidaGrande, Lucida Grande">.</tspan>
+            </text>
+            <text id="بسیارعالی!-ثبتش-کردم" font-family="IRANYekan" font-size="16" font-weight="normal" fill="#252525">
+                <tspan x="262.76" y="201.399902">بسیارعالی</tspan>
+                <tspan x="244.786648" y="202" font-family="LucidaGrande, Lucida Grande">!</tspan>
+                <tspan x="174.322955" y="201.399902"> ثبتش کردم</tspan>
+                <tspan x="156.349602" y="202" font-family="LucidaGrande, Lucida Grande">.</tspan>
+                <tspan x="78.5477273" y="201.399902"> از  حالا هر ۱۵ </tspan>
+                <tspan x="214.774545" y="229.399902">دقیقه چک میشه</tspan>
+                <tspan x="196.801193" y="230" font-family="LucidaGrande, Lucida Grande">.</tspan>
+                <tspan x="333" y="230"></tspan>
+                <tspan x="333" y="258"></tspan>
+                <tspan x="90.5418182" y="285.399902">اگر مشکلی باشه، بهت پیام میدم یا </tspan>
+                <tspan x="199.72" y="313.399902">اس‌ام‌اس میفرستم</tspan>
+                <tspan x="181.746648" y="314" font-family="LucidaGrande, Lucida Grande">.</tspan>
+                <tspan x="315.921875" y="314" font-family="LucidaGrande, Lucida Grande">  </tspan>
+                <tspan x="333" y="202" font-family="LucidaGrande, Lucida Grande">	</tspan>
+            </text>
+            <text id="http://digikala.com" font-family="LucidaGrande, Lucida Grande" font-size="16" font-weight="normal" letter-spacing="0.231111109" fill="#252525">
+                <tspan x="266.413819" y="136">http://digikala.com</tspan>
+            </text>
+            <polyline id="Path-2" stroke="#01D768" points="505 139.805719 507.515839 142.321557 515.905024 134"></polyline>
+            <path d="M510.5,142.5 L519.5,133.5" id="Path-3" stroke="#01D768"></path>
+        </g>
+    </g>
+</svg>

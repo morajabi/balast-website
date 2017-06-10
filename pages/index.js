@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Header from '../components/Header';
 import SureIsUp from '../components/SureIsUp';
 import SinceIsDown from '../components/SinceIsDown';
+import StartBot from '../components/StartBot';
 
 const Index = () => (
   <div>
@@ -13,6 +14,7 @@ const Index = () => (
     <Header />
     <SureIsUp />
     <SinceIsDown />
+    <StartBot />
   </div>
 );
 
