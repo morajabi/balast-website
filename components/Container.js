@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   ${props => (
     css`
       ${props.flex ? 'display: flex;' : ''}  
-      ${props.padded ? `padding: ${sizes.sectionTop} 0;` : ''}  
+      ${props.padded ? `padding-top: ${sizes.sectionTop};` : ''}  
     `
   )}
 

@@ -40,7 +40,7 @@ const SureIsUp = ({ ...props }) => (
       
       <ImageBox>
         <img 
-          style={{ display: 'inline-block' }} 
+          style={{ display: 'inline-block', maxWidth: '100%' }} 
           src="/static/images/down-process.png" 
         />
       </ImageBox>

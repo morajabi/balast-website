@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styled from 'styled-components';
 import Header from '../components/Header';
 import SureIsUp from '../components/SureIsUp';
+import SinceIsDown from '../components/SinceIsDown';
 
 const Index = () => (
   <div>
@@ -11,6 +12,7 @@ const Index = () => (
 
     <Header />
     <SureIsUp />
+    <SinceIsDown />
   </div>
 );
 

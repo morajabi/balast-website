@@ -50,11 +50,14 @@ injectGlobal`
 
   html {
     height: 100%;
+    font-size: ${sizes.typographyBase};
+    @media screen and (max-width: 700px) {
+      font-size: 10px !important;
+    }
   }
 
   body {
     font-family: 'iranyekan', sans-serif, serif, tahoma;
-    font-size: ${sizes.typographyBase};
     min-height: 100%;
     color: #333;
   }
