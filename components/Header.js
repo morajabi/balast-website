@@ -50,7 +50,7 @@ const Header = ({ ...props }) => (
         قبل از اینکه مشتری به مشکل بخوره،
         <br /> از پایین اومدن سایت‌تون خبردار بشید.
       </Description>
-      <HighlightButton link href="http://sad.com">بیشتر بدانید</HighlightButton>
+      <HighlightButton link href="#section2">بیشتر بدانید</HighlightButton>
     </Left>
   </PaddedContainer>
 );
