@@ -4,8 +4,10 @@ import styled, { css } from 'styled-components';
 import { colors, sizes, convertColor } from '../styles/utils';
 
 const wrapperStyles = css`
+  display: inline-block;
   padding: ${sizes.buttonPadding};
   font-size: ${sizes.buttonText};
+  font-weight: bold;
   cursor: pointer;
   transition: background .2s, color .2s;
   border-radius: ${sizes.buttonRadius};

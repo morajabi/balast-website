@@ -15,10 +15,10 @@ export const sizes = {
   heading1: '3.5rem',
   heading2: '2.3rem',
   primaryText: '1.75rem',
-  buttonText: '1.25rem',
+  buttonText: '1.32rem',
 
   buttonRadius: '2.25rem',
-  buttonPadding: '1rem 2.5rem',
+  buttonPadding: '.9rem 2.5rem',
   sectionMarginTop: '5.9rem',
   sectionPaddingTop: '2.3rem',
 };

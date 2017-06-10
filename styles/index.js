@@ -67,4 +67,8 @@ injectGlobal`
   [role=button], a, area, button, input, label, select, summary, textarea {
     touch-action: manipulation;
   }
+
+  #__next-error {
+    direction: ltr;
+  }
 `;
