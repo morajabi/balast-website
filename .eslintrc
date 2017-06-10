@@ -13,6 +13,7 @@
   "rules": {
     "no-unused-vars": "off",
     "no-trailing-spaces":"off",
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    "no-unused-expressions":"off",
   }
 }
