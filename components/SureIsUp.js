@@ -27,6 +27,22 @@ const ImageBox = styled(LightBox)`
   text-align: center;
 `;
 
+const NormalImage = styled.img`
+  display: inline-block;
+  max-width: 100%;
+  @media (max-width: 700px) {
+    display: none;
+  }
+`;
+
+const CompactImage = styled.img`
+  display: inline-block;
+  max-width: 100%;
+  @media (min-width: 701px) {
+    display: none;
+  }
+`;
+
 
 const SureIsUp = ({ ...props }) => (
   <Section>
@@ -39,9 +55,11 @@ const SureIsUp = ({ ...props }) => (
       </Description>
       
       <ImageBox>
-        <img 
-          style={{ display: 'inline-block', maxWidth: '100%' }} 
+        <NormalImage 
           src="/static/images/down-process.png" 
+        />
+        <CompactImage 
+          src="/static/images/down-process-mini.png" 
         />
       </ImageBox>
 
