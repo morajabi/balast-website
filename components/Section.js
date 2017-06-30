@@ -1,6 +1,6 @@
 /* @flow */
 
-const Section = ({ ...props }) => (
+const Section= ({ ...props }) => (
   <section {...props} />
 );
 
